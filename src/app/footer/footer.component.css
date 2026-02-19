@@ -1,0 +1,30 @@
+.footer {
+  background-color: #89c9ff;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+.footer h2 {
+  margin-bottom: 25px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.contact-info p {
+  margin: 8px 0;
+}
+
+.map iframe {
+  border-radius: 12px;
+}
+
+.copyright {
+  margin-top: 25px;
+  font-size: 14px;
+}

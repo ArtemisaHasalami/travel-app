@@ -1,0 +1,28 @@
+.header {
+  background-color: #89c9ff;   /* baby blue */
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  color: white;
+  margin: 0;
+}
+.logo img {
+  height: 100px;
+  width: auto;
+  display: block;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  opacity: 0.8;
+}

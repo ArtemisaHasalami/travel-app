@@ -1,0 +1,19 @@
+<section id="cities" class="cities-section">
+  <h2 class="section-title">Our Destinations</h2>
+
+  <div class="cities-container">
+
+    <div class="city-card" *ngFor="let city of cities">
+      <img [src]="city.image" [alt]="city.name">
+      <h3>{{ city.name }}</h3>
+      <p>{{ city.description }}</p>
+
+      <button
+        class="explore-btn"
+        [routerLink]="['/city', city.name.toLowerCase()]">
+        Explore
+      </button>
+    </div>
+
+  </div>
+</section>

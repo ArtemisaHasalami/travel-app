@@ -1,0 +1,29 @@
+.about-section {
+  padding: 40px 20px;
+  background-color: #fffbe6;
+  text-align: center;
+}
+
+.about-section h2 {
+  color: #ff6f61;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  max-width: 700px;
+  margin: 0 auto 30px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.about-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.about-images img {
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}

@@ -1,0 +1,35 @@
+<section class="city-detail" *ngIf="cityData">
+
+  <!-- HERO SECTION -->
+  <div class="hero">
+    <img [src]="cityData.image" [alt]="cityData.name">
+    <div class="overlay">
+      <h1>{{ cityData.name }}</h1>
+      <button class="read-btn" (click)="toggleAbout()">
+        {{ showAbout ? 'Hide Details' : 'Read More' }}
+      </button>
+    </div>
+  </div>
+
+  <!-- ABOUT SECTION (Hidden by default) -->
+  <div class="city-content" *ngIf="showAbout">
+
+    <h2>About {{ cityData.name }}</h2>
+    <p>{{ cityData.about }}</p>
+
+    <h3>Top Attractions</h3>
+    <ul>
+      <li *ngFor="let place of cityData.attractions">
+        {{ place }}
+      </li>
+    </ul>
+
+    <button routerLink="/" class="back-btn">
+      ← Back to Cities
+    </button>
+
+  </div>
+
+</section>
+
+

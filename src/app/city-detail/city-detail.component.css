@@ -1,0 +1,45 @@
+.city-detail {
+  min-height: 100vh;
+  background: transparent;
+}
+.hero {
+  position: relative;
+  height: 350px;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 30px;
+  left: 40px;
+  color: rgb(255, 255, 255);
+}
+
+.overlay h1 {
+  font-size: 40px;
+}
+
+/* CONTENT CARD */
+.city-content {
+  background: rgb(255, 255, 255);
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px #ffffff1a;
+}
+
+.read-btn,
+.back-btn {
+  padding: 10px 20px;
+  background-color: #3a7bd5;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
